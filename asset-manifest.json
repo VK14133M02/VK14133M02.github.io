@@ -1,16 +1,44 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1cd4c73d.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.cc89dbd0.css",
+    "main.js": "/static/js/main.df3b34a4.js",
+    "static/media/Indigogo_4_Big_Box.png": "/static/media/Indigogo_4_Big_Box.5b684c27b8e45bb9480b.png",
+    "static/media/Apple_Tv+_Signin.png": "/static/media/Apple_Tv+_Signin.52fed20f4b3f96b0a3a4.png",
+    "static/media/Apple_Tv+_Category.png": "/static/media/Apple_Tv+_Category.dacfa2fe7f6549ad76fd.png",
+    "static/media/N_Rack_Womens.png": "/static/media/N_Rack_Womens.310b125093f66a2585b3.png",
+    "static/media/N_Rack_Home.png": "/static/media/N_Rack_Home.c5596d832fbb11990043.png",
+    "static/media/Indigogo_Top_Slider.png": "/static/media/Indigogo_Top_Slider.26037161dd69f6c2ce41.png",
+    "static/media/Apple_Tv+_Video.png": "/static/media/Apple_Tv+_Video.707112966b367243337f.png",
+    "static/media/Apple_Tv+_Navbar.png": "/static/media/Apple_Tv+_Navbar.d509ae945f4d78ebc777.png",
+    "static/media/Indigogo_Home.png": "/static/media/Indigogo_Home.a6866bfce7354216ede2.png",
+    "static/media/N_Rack_Navbar.png": "/static/media/N_Rack_Navbar.238ed2a2e46ad4991a6f.png",
+    "static/media/Indigogo_Category.png": "/static/media/Indigogo_Category.906e3eb2c025639b0455.png",
+    "static/media/vikram_profile.jpg": "/static/media/vikram_profile.0b040f6926d950f4755a.jpg",
+    "static/media/Apple_Tv+_Signup.png": "/static/media/Apple_Tv+_Signup.ee5fdff2cb118195d00b.png",
+    "static/media/N_Rack_Product.png": "/static/media/N_Rack_Product.6a3f6d64a10b354e9f3a.png",
+    "static/media/myHours_Organition.png": "/static/media/myHours_Organition.fb52443a247f577987ef.png",
+    "static/media/Vikram_Kumar_Resume.pdf": "/static/media/Vikram_Kumar_Resume.63f03e70a7a00765ce2e.pdf",
+    "static/media/myHours_Footer.png": "/static/media/myHours_Footer.bdb6ee294fd1d65da3e0.png",
+    "static/media/chakra.png": "/static/media/chakra.50d719215d09789e5921.png",
+    "static/media/myHours_Navbar&Header.png": "/static/media/myHours_Navbar&Header.179a6e10ce3a70edd8d1.png",
+    "static/media/N_Rack_Cart.png": "/static/media/N_Rack_Cart.56d8c1325cb611e824c4.png",
+    "static/media/N_Rack_Register.png": "/static/media/N_Rack_Register.a7be6e18df7b52863309.png",
+    "static/media/Apple_Tv+_Footer.png": "/static/media/Apple_Tv+_Footer.da1364ca40b6fbd0df53.png",
+    "static/media/myHours_Register.png": "/static/media/myHours_Register.6b5de1f08935d06aa333.png",
+    "static/media/myHours_Signup.png": "/static/media/myHours_Signup.7894d3057d640182be53.png",
+    "static/media/myHours_Signin.png": "/static/media/myHours_Signin.6db0946070590c2e4cfb.png",
+    "static/media/react.png": "/static/media/react.353a8ecfe2c1ac4bc955.png",
+    "static/media/redux.png": "/static/media/redux.9676509122d6e80fa707.png",
+    "static/media/nodeJs.png": "/static/media/nodeJs.189413e62794c8d2a886.png",
+    "static/media/js.png": "/static/media/js.171a1a1d95ca1dd0e059.png",
+    "static/media/background1.png": "/static/media/background1.28db5bfd58081dd1df1b.png",
+    "static/media/firebase.png": "/static/media/firebase.97fa4dccb610bd998dba.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1cd4c73d.js.map": "/static/js/main.1cd4c73d.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.cc89dbd0.css.map": "/static/css/main.cc89dbd0.css.map",
+    "main.df3b34a4.js.map": "/static/js/main.df3b34a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1cd4c73d.js"
+    "static/css/main.cc89dbd0.css",
+    "static/js/main.df3b34a4.js"
   ]
 }
