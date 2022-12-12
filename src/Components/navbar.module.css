@@ -1,0 +1,11 @@
+@media screen and (min-width: 720px) {
+    .drawer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .nav {
+        display: none;
+    }
+}
