@@ -42,10 +42,8 @@ const Home = () => {
                                     /> </span> </Text>
                                 <a href={resume} download>
                                     <Button rightIcon={<DownloadIcon />} mt={5} fontWeight="bold" fontSize="20px" width="fit-content" color="white" bg="#F5C32c" _hover={{ variant: 'outline', color: "#F5C32c", bg: "white", border: "2px solid #F5c32c" }}>Resume
-                                    </Button></a>
-                       
+                                    </Button></a>                       
                             </Box >
-
                         </SimpleGrid >
                     </Box >
                 </Center>

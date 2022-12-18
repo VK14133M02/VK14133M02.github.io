@@ -13,7 +13,7 @@ const Footer = () => {
             <Flex w="80%" margin="auto" justifyContent="space-around" p="10px" flexWrap="wrap">
                 <Flex alignItems={"center"} gap="10px" color={color} mt={4} >
                     <IconButton size='sm' _focus={{ outline: "none" }} icon={<FaPhone fontSize="22px" color='blue' />} />
-                    <Link href="tel:6201138922">
+                    <Link href="tel:8817661895">
                         <Text textDecoration={"underline"}>+91 8817661895</Text>
                     </Link>
                 </Flex>

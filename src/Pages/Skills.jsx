@@ -33,8 +33,8 @@ const skill = [
         title: "Material UI"
     },
     {
-        img: "https://sayan1portfolio.netlify.app/assets/bootstrap-4-logo.b296d117.svg",
-        title: "Bootstrap"
+        img: "https://avatars.githubusercontent.com/u/8908513?s=280&v=4",
+        title: "Cypress"
     },
     {
         img: "https://sayan1portfolio.netlify.app/assets/nodejs-1-logo.43b81cb7.svg",
@@ -56,7 +56,11 @@ const skill = [
     {
         img: "https://sayan1portfolio.netlify.app/assets/git-icon.d59a2cfd.svg",
         title: "git"
-    }
+    },
+    {
+        img: "https://img.icons8.com/fluency/512/typescript--v2.png",
+        title: "TypeScript"
+    },
 
 ]
 
