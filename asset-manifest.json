@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.68bec0c7.css",
-    "main.js": "/static/js/main.3f58ebae.js",
+    "main.js": "/static/js/main.3537129f.js",
     "static/media/Indigogo_4_Big_Box.png": "/static/media/Indigogo_4_Big_Box.5b684c27b8e45bb9480b.png",
     "static/media/Apple_Tv+_Signin.png": "/static/media/Apple_Tv+_Signin.52fed20f4b3f96b0a3a4.png",
     "static/media/Apple_Tv+_Category.png": "/static/media/Apple_Tv+_Category.dacfa2fe7f6549ad76fd.png",
@@ -35,10 +35,10 @@
     "static/media/firebase.png": "/static/media/firebase.97fa4dccb610bd998dba.png",
     "index.html": "/index.html",
     "main.68bec0c7.css.map": "/static/css/main.68bec0c7.css.map",
-    "main.3f58ebae.js.map": "/static/js/main.3f58ebae.js.map"
+    "main.3537129f.js.map": "/static/js/main.3537129f.js.map"
   },
   "entrypoints": [
     "static/css/main.68bec0c7.css",
-    "static/js/main.3f58ebae.js"
+    "static/js/main.3537129f.js"
   ]
 }
