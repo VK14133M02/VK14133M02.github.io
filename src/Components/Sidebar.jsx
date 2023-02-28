@@ -20,7 +20,7 @@ const Sidebar = () => {
   const color = useColorModeValue("white", "black");
 
   const downloadResume = (url) => {
-    let fileName = "Vikram_Kumar_Resume";
+    let fileName = "Fw20_0267_Vikram_Kumar_Resume";
     const aTag = document.createElement("a");
     aTag.href = url;
     aTag.setAttribute("download", fileName);
