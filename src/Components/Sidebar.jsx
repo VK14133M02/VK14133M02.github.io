@@ -1,57 +1,95 @@
-
-import React, { useState } from 'react'
-import "./Sidebar.css"
-import Drawer from './Drawer'
-import { Link } from 'react-scroll'
-import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue } from '@chakra-ui/react'
-import { FaSun, FaMoon } from "react-icons/fa"
+import React, { useState } from "react";
+import "./Sidebar.css";
+import Drawer from "./Drawer";
+import { Link } from "react-scroll";
+import {
+  Box,
+  Flex,
+  IconButton,
+  Text,
+  useColorMode,
+  useColorModeValue,
+} from "@chakra-ui/react";
+import { FaSun, FaMoon } from "react-icons/fa";
+import resume from "../Img/Vikram_Kumar_Resume.pdf";
 
 const Sidebar = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === "dark";
+  const bg = useColorModeValue("#2B547E", "black");
+  const color = useColorModeValue("white", "black");
 
-    const { colorMode, toggleColorMode } = useColorMode()
-    const isDark = colorMode === "dark"
-    const bg = useColorModeValue('#2B547E', 'black')
-    const color = useColorModeValue('white', 'black')
+  const downloadResume = (url) => {
+    let fileName = "Vikram_Kumar_Resume";
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
 
-    return (
-        <div>
-            <Box className="main_container" bg={bg} >
-                {/* <Box className='sidebar'> */}
-                <Flex justify={"space-between"} align={"center"} height="80px">
-                    <Box>
-                        <Text color="#1bc6ed" fontWeight={"bold"} fontSize="40px" ml={"15px"}>
-                            V<span style={{ color: "#F5C32C" }}>K</span>
-                        </Text>
-                    </Box>
-                    <Flex align="center">
-                        <Link to="homea" offset={-120} spy={true} smooth={true} >
-                            <p className='link'>HOME</p>
-                        </Link>
-                        <Link to="about" offset={-300} spy={true} smooth={true}>
-                            <p className='link'>ABOUT</p>
-                        </Link>
-                        <Link to="project" offset={-120} spy={true} smooth={true}>
-                            <p className='link'>PROJECTS</p>
-                        </Link>
-                        <Link to="skill" offset={-120} spy={true} smooth={true}>
-                            <p className='link'>SKILLS</p>
-                        </Link>
-                        <Link to="contact" offset={-200} spy={true} smooth={true}>
-                            <p className='link'>CONTACT</p>
-                        </Link>
-                        <Text>
-                            <a style={{ fontSize: "22px" }} className='link' target={"blank"} href="https://drive.google.com/file/d/11YbVvtay5QEnFv-ZkVRAiVZJS8cPu-Ao/view?usp=share_link">
-                                RESUME
-                            </a>
-                        </Text>
+  return (
+    <div>
+      <Box className="main_container" bg={bg}>
+        {/* <Box className='sidebar'> */}
+        <Flex justify={"space-between"} align={"center"} height="80px">
+          <Box>
+            <Text
+              color="#1bc6ed"
+              fontWeight={"bold"}
+              fontSize="40px"
+              ml={"15px"}
+            >
+              V<span style={{ color: "#F5C32C" }}>K</span>
+            </Text>
+          </Box>
+          <Flex align="center">
+            <Link to="homea" offset={-120} spy={true} smooth={true}>
+              <p className="link">HOME</p>
+            </Link>
+            <Link to="about" offset={-300} spy={true} smooth={true}>
+              <p className="link">ABOUT</p>
+            </Link>
+            <Link to="project" offset={-120} spy={true} smooth={true}>
+              <p className="link">PROJECTS</p>
+            </Link>
+            <Link to="skill" offset={-120} spy={true} smooth={true}>
+              <p className="link">SKILLS</p>
+            </Link>
+            <Link to="contact" offset={-200} spy={true} smooth={true}>
+              <p className="link">CONTACT</p>
+            </Link>
+            <Text>
+              <a
+                style={{ fontSize: "22px" }}
+                className="link"
+                onClick={() => downloadResume(resume)}
+                target={"blank"}
+                href="https://drive.google.com/file/d/11YbVvtay5QEnFv-ZkVRAiVZJS8cPu-Ao/view?usp=share_link"
+              >
+                RESUME
+              </a>
+            </Text>
 
-                        <IconButton bg={isDark ? "black" : "white"} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun color='yellow' size="25px" /> : <FaMoon color='black' size="20px" />} />
-                    </Flex>
-                </Flex>
+            <IconButton
+              bg={isDark ? "black" : "white"}
+              size="sm"
+              m={2}
+              onClick={toggleColorMode}
+              icon={
+                isDark ? (
+                  <FaSun color="yellow" size="25px" />
+                ) : (
+                  <FaMoon color="black" size="20px" />
+                )
+              }
+            />
+          </Flex>
+        </Flex>
+      </Box>
+    </div>
+  );
+};
 
-            </Box>
-        </div >
-    )
-}
-
-export default Sidebar
+export default Sidebar;
