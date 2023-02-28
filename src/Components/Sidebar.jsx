@@ -46,23 +46,33 @@ const Sidebar = () => {
           </Box>
           <Flex align="center">
             <Link to="homea" offset={-120} spy={true} smooth={true}>
-              <p className="link">HOME</p>
+              <p className="link" style={{ fontSize: "18px" }}>
+                HOME
+              </p>
             </Link>
             <Link to="about" offset={-300} spy={true} smooth={true}>
-              <p className="link">ABOUT</p>
+              <p className="link" style={{ fontSize: "18px" }}>
+                ABOUT
+              </p>
             </Link>
             <Link to="project" offset={-120} spy={true} smooth={true}>
-              <p className="link">PROJECTS</p>
+              <p className="link" style={{ fontSize: "18px" }}>
+                PROJECTS
+              </p>
             </Link>
             <Link to="skill" offset={-120} spy={true} smooth={true}>
-              <p className="link">SKILLS</p>
+              <p className="link" style={{ fontSize: "18px" }}>
+                SKILLS
+              </p>
             </Link>
             <Link to="contact" offset={-200} spy={true} smooth={true}>
-              <p className="link">CONTACT</p>
+              <p className="link" style={{ fontSize: "18px" }}>
+                CONTACT
+              </p>
             </Link>
             <Text>
               <a
-                style={{ fontSize: "22px" }}
+                style={{ fontSize: "18px" }}
                 className="link"
                 onClick={() => downloadResume(resume)}
                 target={"blank"}
