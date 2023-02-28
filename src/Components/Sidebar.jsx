@@ -66,7 +66,7 @@ const Sidebar = () => {
                 className="link"
                 onClick={() => downloadResume(resume)}
                 target={"blank"}
-                href="https://drive.google.com/file/d/11YbVvtay5QEnFv-ZkVRAiVZJS8cPu-Ao/view?usp=share_link"
+                href="https://drive.google.com/file/d/1ELT4B5BHCQQDHsJlwE_V0pZuRR1guD9w/view?usp=share_link"
               >
                 RESUME
               </a>

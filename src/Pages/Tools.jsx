@@ -12,55 +12,22 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const skill = [
+const tools = [
   {
-    img: "https://sayan1portfolio.netlify.app/assets/html5.def2d6d2.svg",
-    title: "HTML",
+    img: "https://avatars.githubusercontent.com/u/8908513?s=280&v=4",
+    title: "Cypress",
   },
   {
-    img: "https://sayan1portfolio.netlify.app/assets/css.106e7ff7.svg",
-    title: "CSS",
+    img: "https://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png",
+    title: "NPM",
   },
   {
-    img: "https://sayan1portfolio.netlify.app/assets/js-official.5cd82e09.svg",
-    title: "JavaScript",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/react.35ef61ed.svg",
-    title: "React",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/redux-logo-svgrepo.000deaac.svg",
-    title: "Redux",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/chakraui.4a4caf4b.svg",
-    title: "Chakra UI",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/material-ui.701cfef5.svg",
-    title: "Material UI",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/nodejs-1-logo.43b81cb7.svg",
-    title: "Node JS",
-  },
-  {
-    img: "https://sayan1portfolio.netlify.app/assets/mongodb-logo.583c2bc4.svg",
-    title: "MongoDB",
-  },
-
-  {
-    img: "https://img.icons8.com/office/2x/express-js.png",
-    title: "Express Js",
-  },
-  {
-    img: "https://img.icons8.com/fluency/512/typescript--v2.png",
-    title: "TypeScript",
+    img: "https://sayan1portfolio.netlify.app/assets/git-icon.d59a2cfd.svg",
+    title: "git",
   },
 ];
 
-const Skills = () => {
+const Tools = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   const color = useColorModeValue("white", "blackAlpha.700");
@@ -75,7 +42,7 @@ const Skills = () => {
       h={["auto", "60vh"]}
     >
       <Heading mb={10} color="#F5C32C" textAlign="center">
-        My Technical Skills
+        Tools
       </Heading>
       <SimpleGrid
         columns={[2, 3, 4, 5, 6, 7]}
@@ -83,7 +50,7 @@ const Skills = () => {
         my={14}
         color={color}
       >
-        {skill.map((el) => (
+        {tools.map((el) => (
           <Box
             bg="#BEE3F8"
             key={el.title}
@@ -111,4 +78,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Tools;
